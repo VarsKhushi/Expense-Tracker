@@ -28,10 +28,8 @@ A full-stack expense tracking application built with React, Node.js, Express, an
 
 **Backend:**
 - Node.js + Express.js
-- JWT-based authentication
 - MongoDB with Mongoose
 - Express Validator for input validation
-- bcryptjs for password hashing
 
 ## Quick Start
 
@@ -66,7 +64,6 @@ A full-stack expense tracking application built with React, Node.js, Express, an
    ```env
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/expense-tracker
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
    ```
 
 5. **Start MongoDB**
@@ -139,8 +136,6 @@ Expense-Tracker/
 ## Features in Detail
 
 ### Authentication
-- Secure JWT-based authentication
-- Password hashing with bcryptjs
 - Protected routes on both frontend and backend
 - Automatic token refresh and logout on expiration
 
